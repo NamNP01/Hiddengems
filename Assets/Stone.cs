@@ -33,16 +33,16 @@ public class Stone : MonoBehaviour
         // ⚡️ CHỈ nếu KHÔNG thể đặt gem nữa thì mới gọi PlaceGemAfterCheckRemaining
         if (!gemControler.isPlacementPossible)
         {
-            gemControler.PlaceGemAfterCheckRemaining();
+            //gemControler.PlaceGemAfterCheckRemaining();
         }
 
         // Snap vị trí theo grid
         stonePosition = gemControler.SnapToGrid(stonePosition);
 
-        //// Tính xác suất spawn gem
-        //float spawnChance = gemControler.isPlacementPossible ? 0.3f : 1f;
+        // Tính xác suất spawn gem
+        float spawnChance = 0.3f; // Xác suất 30%
 
-        if (gemControler.isPlacementPossible)
+        if (gemControler.isPlacementPossible && Random.Range(0f, 1f) <= spawnChance)
         {
             gemControler.SpawnRandomGem(stonePosition);
         }
