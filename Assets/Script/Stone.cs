@@ -3,7 +3,7 @@
 public class Stone : MonoBehaviour
 {
     public GemControler gemControler; // Tham chiếu đến GemControler
-
+    public float spawnChance = 0f;
     private void OnMouseDown()
     {
         if (gemControler.pickaxeCount <= 0)
@@ -34,18 +34,25 @@ public class Stone : MonoBehaviour
         if (!gemControler.isPlacementPossible)
         {
             //gemControler.PlaceGemAfterCheckRemaining();
+            gemControler.PlaceLargestGemAndCheckRemaining();
+        }
+        else
+        {
+            if (spawnChance > 0f && Random.value <= spawnChance)
+            {
+                Debug.LogWarning("!");
+                gemControler.SpawnRandomGem(stonePosition);
+            }
         }
 
         // Snap vị trí theo grid
         stonePosition = gemControler.SnapToGrid(stonePosition);
 
-        // Tính xác suất spawn gem
-        float spawnChance = 0.3f; // Xác suất 30%
 
-        if (gemControler.isPlacementPossible && Random.Range(0f, 1f) <= spawnChance)
-        {
-            gemControler.SpawnRandomGem(stonePosition);
-        }
+        //if (gemControler.isPlacementPossible && Random.Range(0f, 1f) <= spawnChance)
+        //{
+        //    gemControler.SpawnRandomGem(stonePosition);
+        //}
 
         Destroy(gameObject, 0.1f);
 

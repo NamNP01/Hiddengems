@@ -221,6 +221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!61 &5677463
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -345,6 +346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &13928945
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -612,6 +614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!61 &43256250
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -760,6 +763,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!61 &60093678
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -824,7 +828,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &81159654
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -884,6 +888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &81159656
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -972,7 +977,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &101186871
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1032,6 +1037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &101186873
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1316,6 +1322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &121400503
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1464,6 +1471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &126270236
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1552,7 +1560,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &134618674
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1612,6 +1620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &134618676
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1893,6 +1902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &227471093
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2041,6 +2051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &248527295
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2189,6 +2200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &311537015
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2337,6 +2349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &361525944
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2509,6 +2522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!61 &381895495
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2672,6 +2686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &413747544
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2820,6 +2835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &415402037
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2992,6 +3008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!61 &416915031
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3140,6 +3157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!61 &501491720
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3356,6 +3374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &569450817
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3504,6 +3523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &594238063
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3676,6 +3696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!61 &608253659
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3800,6 +3821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &626986362
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4084,6 +4106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &659058731
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4232,6 +4255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &695270193
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4483,6 +4507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &719249028
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4631,6 +4656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &732495364
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4779,6 +4805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &766887753
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4927,6 +4954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &834960589
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5015,7 +5043,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &886660153
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5075,6 +5103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &886660155
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5163,7 +5192,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &902842213
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5223,6 +5252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &902842215
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5371,6 +5401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &910539874
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5549,12 +5580,14 @@ MonoBehaviour:
   pickaxePopup: {fileID: 391746832}
   isPlacementPossible: 1
   gemConfigs:
-  - gemPrefab: {fileID: 4921113550600812571, guid: 886f72c1e3a3b5a4da1212d77d2f400a, type: 3}
-    size: {x: 2, y: 1}
-    count: 2
+  - gemPrefab: {fileID: 6849974150632914796, guid: 72e01b90de54788448ade347f73cf6cc, type: 3}
+    size: {x: 1, y: 2}
   - gemPrefab: {fileID: 4921113550600812571, guid: 1d461ab830208364f9acdd0ab6aa49b5, type: 3}
     size: {x: 2, y: 2}
-    count: 1
+  - gemPrefab: {fileID: 6849974150632914796, guid: 8802a72b594a59946b6cfa62fe8c76ca, type: 3}
+    size: {x: 3, y: 1}
+  - gemPrefab: {fileID: 6849974150632914796, guid: 72e01b90de54788448ade347f73cf6cc, type: 3}
+    size: {x: 1, y: 2}
   allStonePositions: []
 --- !u!1 &952609069
 GameObject:
@@ -5794,6 +5827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!61 &1025373245
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5918,6 +5952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1041547900
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6158,6 +6193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!61 &1081856706
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6282,6 +6318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1098054724
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6430,6 +6467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1128928419
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6578,6 +6616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1149924845
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6883,6 +6922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!61 &1201882847
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7007,6 +7047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1268295969
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7179,6 +7220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!61 &1274469825
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7327,6 +7369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!61 &1334488001
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7391,7 +7434,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &1335194252
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7451,6 +7494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1335194254
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7623,6 +7667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!61 &1342747147
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7747,6 +7792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1345416281
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7895,6 +7941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1404903140
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8067,6 +8114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!61 &1442237073
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8191,6 +8239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1471567231
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8339,6 +8388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1538818331
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8487,6 +8537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1573333022
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8635,6 +8686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1592580144
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8807,6 +8859,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!61 &1624635619
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8931,6 +8984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1650755220
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9079,6 +9133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1658989039
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9363,6 +9418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1669839925
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9511,6 +9567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1734428991
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9599,7 +9656,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &1790250828
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9659,6 +9716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1790250830
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9807,6 +9865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1803002017
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9955,6 +10014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1871194987
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10178,6 +10238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &1936237443
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10350,6 +10411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!61 &1948044133
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10474,6 +10536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &2025537601
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10562,7 +10625,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &2026500498
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10622,6 +10685,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &2026500500
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10770,6 +10834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &2088029488
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10918,6 +10983,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gemControler: {fileID: 930839121}
+  spawnChance: 0.3
 --- !u!212 &2090385266
 SpriteRenderer:
   m_ObjectHideFlags: 0

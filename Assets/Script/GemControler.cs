@@ -31,7 +31,7 @@ public class GemControler : MonoBehaviour
         // Gọi FindAllStones để lưu tất cả các vị trí stone khi game bắt đầu
         FindAllStones();
         UpdatePickaxeCountUI();
-        PlaceLargestGemAndCheckRemaining();
+        //PlaceLargestGemAndCheckRemaining();
     }
     public List<GemConfig> gemConfigs; // Danh sách các gem có thể tạo
 
@@ -153,7 +153,7 @@ public class GemControler : MonoBehaviour
         //    Debug.Log($"Gem {selectedGem.gemPrefab.name} removed from the list.");
         //}
 
-        PlaceLargestGemAndCheckRemaining();
+        //PlaceLargestGemAndCheckRemaining();
 
         // Xóa tất cả các ô đã sử dụng
         foreach (Vector3 pos in occupiedPositions)
@@ -161,62 +161,9 @@ public class GemControler : MonoBehaviour
             RemoveStonePosition(pos);
         }
     }
-
-    //public void PlaceLargestGemAndCheckRemaining()
-    //{
-    //    // Sắp xếp danh sách các gem theo diện tích giảm dần
-    //    List<GemConfig> sortedGemConfigs = gemConfigs.OrderByDescending(gem => gem.size.x * gem.size.y).ToList();
-    //    List<Vector3> remainingPositions = new List<Vector3>(allStonePositions);
-
-    //    int totalGems = sortedGemConfigs.Count;
-    //    Debug.Log($"Total gems to place: {totalGems}");
-
-    //    bool allGemsPlaced = true;
-    //    foreach (GemConfig gem in sortedGemConfigs)
-    //    {
-    //        for (int i = 0; i < gem.count; i++)
-    //        {
-    //            bool isPlaced = false;
-    //            foreach (Vector3 position in remainingPositions.ToList())
-    //            {
-    //                if (CanPlaceGemAtPosition(gem, position, remainingPositions))
-    //                {
-    //                    // Tính toán trung tâm của các ô mà gem sẽ chiếm dụng
-    //                    List<Vector3> occupiedPositions = GetOccupiedPositionsForGem(gem, position);
-    //                    Vector3 centerPosition = CalculateCenterPosition(occupiedPositions);
-
-    //                    //// Tạo gem tại vị trí trung tâm
-    //                    //Instantiate(gem.gemPrefab, centerPosition, Quaternion.identity);
-    //                    Debug.Log($"Gem {gem.gemPrefab.name} placed at {centerPosition}");
-
-    //                    // Cập nhật danh sách các vị trí đã sử dụng
-    //                    foreach (Vector3 occupiedPosition in occupiedPositions)
-    //                    {
-    //                        remainingPositions.Remove(occupiedPosition);
-    //                    }
-
-    //                    isPlaced = true;
-    //                    break;
-    //                }
-    //            }
-
-    //            if (!isPlaced)
-    //            {
-    //                allGemsPlaced = false;
-    //                Debug.Log($"Failed to place gem: {gem.gemPrefab.name}.");
-    //                isPlacementPossible = false;
-    //                break;
-    //            }
-    //        }
-    //    }
-
-    //    if (allGemsPlaced)
-    //        Debug.Log("All gems were successfully placed!");
-    //    else
-    //        Debug.Log("Some gems could not be placed.");
-    //}
     public void PlaceLargestGemAndCheckRemaining()
     {
+        placedGems.Clear();
         // Sắp xếp danh sách các gem theo diện tích giảm dần
         List<GemConfig> sortedGemConfigs = gemConfigs.OrderByDescending(gem => gem.size.x * gem.size.y).ToList();
         List<Vector3> remainingPositions = new List<Vector3>(allStonePositions);
@@ -231,17 +178,22 @@ public class GemControler : MonoBehaviour
             Debug.Log("All gems were successfully placed!");
 
             // Hiển thị vị trí của mỗi viên gem nếu tất cả được đặt thành công
-            foreach (var placedGem in placedGems)
+            if (!isPlacementPossible)
             {
-                // Sinh gem tại vị trí
-                Instantiate(placedGem.gem.gemPrefab, placedGem.position, Quaternion.identity);
-                Debug.Log($"Gem {placedGem.gem.gemPrefab.name} placed at {placedGem.position}");
-                //RemoveStonePosition(placedGem.position);
+                foreach (var placedGem in placedGems)
+                {
+                    // Sinh gem tại vị trí
+                    Instantiate(placedGem.gem.gemPrefab, placedGem.position, Quaternion.identity);
+                    //Debug.Log($"Gem {placedGem.gem.gemPrefab.name} placed at {placedGem.position}");
+                    gemConfigs.Remove(placedGem.gem);
+                    Debug.Log($"remove Gem ");
+                }
             }
         }
         else
         {
             Debug.Log("Some gems could not be placed.");
+            isPlacementPossible = false;
         }
     }
 
@@ -269,7 +221,11 @@ public class GemControler : MonoBehaviour
                 // Lưu lại vị trí của gem đã đặt
                 placedGems.Add((currentGem, centerPosition));
 
-                Debug.Log($"Gem {currentGem.gemPrefab.name} placed at {centerPosition} occupying positions: {string.Join(", ", occupiedPositions.Select(pos => pos.ToString()))}");
+                if(!isPlacementPossible)
+                {
+                    Debug.Log($"Gem {currentGem.gemPrefab.name} placed at {centerPosition} occupying positions: {string.Join(", ", occupiedPositions.Select(pos => pos.ToString()))}");
+
+                }
 
 
                 // Cập nhật danh sách các vị trí đã sử dụng
@@ -300,66 +256,7 @@ public class GemControler : MonoBehaviour
     }
 
 
-
-    //public void PlaceGemAfterCheckRemaining()
-    //{
-    //    List<GemConfig> sortedGemConfigs = gemConfigs.OrderByDescending(gem => gem.size.x * gem.size.y).ToList();
-    //    List<Vector3> remainingPositions = new List<Vector3>(allStonePositions);
-
-    //    // Dùng for thay vì foreach để có thể xóa phần tử
-    //    for (int g = sortedGemConfigs.Count - 1; g >= 0; g--)
-    //    {
-    //        GemConfig gem = sortedGemConfigs[g];
-    //        int placedCount = 0;
-
-    //        for (int i = 0; i < gem.count; i++)
-    //        {
-    //            bool placed = false;
-
-    //            foreach (Vector3 position in remainingPositions.ToList())
-    //            {
-    //                if (CanPlaceGemAtPosition(gem, position, remainingPositions))
-    //                {
-    //                    List<Vector3> occupiedPositions = GetOccupiedPositionsForGem(gem, position);
-    //                    Vector3 centerPosition = CalculateCenterPosition(occupiedPositions);
-
-    //                    Instantiate(gem.gemPrefab, centerPosition, Quaternion.identity);
-
-    //                    foreach (Vector3 occupiedPosition in occupiedPositions)
-    //                    {
-    //                        remainingPositions.Remove(occupiedPosition);
-    //                        allStonePositions.Remove(occupiedPosition);
-    //                    }
-
-    //                    placedCount++;
-    //                    placed = true;
-    //                    break;
-    //                }
-    //            }
-
-    //            if (!placed)
-    //            {
-    //                break;
-    //            }
-    //        }
-
-    //        // Giảm count của gem sau khi đặt thành công
-    //        gem.count -= placedCount;
-
-    //        // Nếu count <= 0 thì xóa gem ra khỏi danh sách
-    //        if (gem.count <= 0)
-    //        {
-    //            gemConfigs.Remove(gem);
-    //            Debug.Log($"Gem {gem.gemPrefab.name} removed from gemConfigs due to count being 0!");
-    //        }
-    //    }
-    //}
-
-
     //Hàm tính toán trung tâm của các ô mà gem sẽ chiếm dụng
-
-
-
     private Vector3 CalculateCenterPosition(List<Vector3> occupiedPositions)
     {
         // Tính toán trung tâm bằng cách lấy trung bình các vị trí
@@ -375,49 +272,132 @@ public class GemControler : MonoBehaviour
 
 
     // Hàm kiểm tra xem gem có thể được đặt tại một vị trí cụ thể không
-    private bool CanPlaceGemAtPosition(GemConfig gem, Vector3 position, List<Vector3> remainingPositions)
-    {
-        // Lấy tất cả các vị trí cần thiết để đặt gem tại vị trí này
-        List<Vector3> occupiedPositions = GetOccupiedPositionsForGem(gem, position);
-
-        // Kiểm tra xem tất cả các vị trí cần thiết có nằm trong danh sách vị trí còn lại không
-        if (occupiedPositions == null || remainingPositions == null)
+        private bool CanPlaceGemAtPosition(GemConfig gem, Vector3 position, List<Vector3> remainingPositions)
         {
-            Debug.LogWarning("Occupied or remaining positions are null.");
-            return false;
-        }
-        return occupiedPositions.All(pos => remainingPositions.Contains(pos));
+            // Lấy tất cả các vị trí cần thiết để đặt gem tại vị trí này
+            List<Vector3> occupiedPositions = GetOccupiedPositionsForGem(gem, position);
 
-    }
+            // Kiểm tra xem tất cả các vị trí cần thiết có nằm trong danh sách vị trí còn lại không
+            if (occupiedPositions == null || remainingPositions == null)
+            {
+                //Debug.LogWarning("Occupied or remaining positions are null.");
+                return false;
+            }
+            return occupiedPositions.All(pos => remainingPositions.Contains(pos));
+
+        }
 
     // Hàm tính toán các vị trí mà gem sẽ chiếm
+    //private List<Vector3> GetOccupiedPositionsForGem(GemConfig gem, Vector3 basePosition)
+    //{
+    //    List<Vector3> occupiedPositions = new List<Vector3>();
+    //    basePosition = SnapToGrid(basePosition);
+
+    //    // Duyệt qua tất cả các vị trí trong phạm vi gem (X và Y)
+    //    for (int offsetX = 0; offsetX < gem.size.x; offsetX++)
+    //    {
+    //        for (int offsetY = 0; offsetY < gem.size.y; offsetY++)
+    //        {
+    //            // Tạo các vị trí cho các ô bị chiếm dụng
+    //            Vector3 positionToCheck = basePosition + new Vector3(offsetX * cellSize, offsetY * cellSize, 0);
+
+    //            // Kiểm tra xem vị trí này có bị chiếm dụng không
+    //            if (allStonePositions.Contains(positionToCheck))
+    //            {
+    //                occupiedPositions.Add(positionToCheck);
+    //            }
+    //            else
+    //            {
+    //                return null; // Nếu có bất kỳ vị trí nào không hợp lệ, trả về null
+    //            }
+    //        }
+    //    }
+
+    //    // Nếu tất cả các ô hợp lệ, trả về danh sách các vị trí bị chiếm dụng
+    //    return occupiedPositions;
+    //}
     private List<Vector3> GetOccupiedPositionsForGem(GemConfig gem, Vector3 basePosition)
     {
         List<Vector3> occupiedPositions = new List<Vector3>();
         basePosition = SnapToGrid(basePosition);
 
-        // Duyệt qua tất cả các vị trí trong phạm vi gem (X và Y)
+        // Bước 1: Kiểm tra theo trục X
+        List<Vector3> horizontalPositions = new List<Vector3>();
         for (int offsetX = 0; offsetX < gem.size.x; offsetX++)
         {
-            for (int offsetY = 0; offsetY < gem.size.y; offsetY++)
+            Vector3 posX = basePosition + new Vector3(offsetX * cellSize, 0, 0);
+            if (allStonePositions.Contains(posX))
             {
-                // Tạo các vị trí cho các ô bị chiếm dụng
-                Vector3 positionToCheck = basePosition + new Vector3(offsetX * cellSize, offsetY * cellSize, 0);
-
-                // Kiểm tra xem vị trí này có bị chiếm dụng không
-                if (allStonePositions.Contains(positionToCheck))
-                {
-                    occupiedPositions.Add(positionToCheck);
-                }
-                else
-                {
-                    return null; // Nếu có bất kỳ vị trí nào không hợp lệ, trả về null
-                }
+                horizontalPositions.Add(posX);
+            }
+            else
+            {
+                return null; // Nếu bất kỳ ô X nào không có, trả về null
             }
         }
 
-        // Nếu tất cả các ô hợp lệ, trả về danh sách các vị trí bị chiếm dụng
-        return occupiedPositions;
+        // Nếu gem chỉ 1 dòng (size.y == 1) thì không cần kiểm tra Y
+        if (gem.size.y == 1)
+        {
+            return horizontalPositions;
+        }
+
+        // Bước 2: Kiểm tra theo trục Y
+        // Thử hướng lên
+        bool canMoveUp = true;
+        List<Vector3> upPositions = new List<Vector3>(horizontalPositions);
+        for (int offsetY = 1; offsetY < gem.size.y; offsetY++)
+        {
+            foreach (var pos in horizontalPositions)
+            {
+                Vector3 upPos = pos + new Vector3(0, offsetY * cellSize, 0);
+                if (allStonePositions.Contains(upPos))
+                {
+                    upPositions.Add(upPos);
+                }
+                else
+                {
+                    canMoveUp = false;
+                    break;
+                }
+            }
+            if (!canMoveUp) break;
+        }
+
+        if (canMoveUp)
+        {
+            return upPositions;
+        }
+
+        // Nếu không thể lên, thử hướng xuống
+        bool canMoveDown = true;
+        List<Vector3> downPositions = new List<Vector3>(horizontalPositions);
+        for (int offsetY = 1; offsetY < gem.size.y; offsetY++)
+        {
+            foreach (var pos in horizontalPositions)
+            {
+                Vector3 downPos = pos + new Vector3(0, -offsetY * cellSize, 0);
+                if (allStonePositions.Contains(downPos))
+                {
+                    downPositions.Add(downPos);
+                }
+                else
+                {
+                    canMoveDown = false;
+                    break;
+                }
+            }
+            if (!canMoveDown) break;
+        }
+
+        if (canMoveDown)
+        {
+            return downPositions;
+        }
+
+        // Không thể lên hoặc xuống đúng quy tắc
+        return null;
     }
+
 
 }
