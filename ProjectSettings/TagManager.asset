@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Stone
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Stone
+  - Water
+  - UI
+  - Base
+  - Gem
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Base
+    uniqueID: 2438269593
+    locked: 0
+  - name: Gem
+    uniqueID: 3495954005
+    locked: 0
+  - name: Stone
+    uniqueID: 2931116555
+    locked: 0
+  - name: UI
+    uniqueID: 932176291
+    locked: 0
