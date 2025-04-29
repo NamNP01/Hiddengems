@@ -3,48 +3,49 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using TMPro;
+using Unity.Android.Gradle.Manifest;
 
 public class GemControler : MonoBehaviour
 {
-    public float cellSize = 1.0f; // Kích thước mỗi ô trên grid
-    public int gridWidth = 10;   // Số ô theo chiều ngang
-    public int gridHeight = 10;  // Số ô theo chiều dọc
-    public int pickaxeCount = 100;
+    public float cellSize = 1.0f; 
+    public int pickaxeCount=100;
     public TextMeshProUGUI pickaxeText;
     public GameObject pickaxePopup;
 
     public Dictionary<Vector3, bool> stonePositions = new Dictionary<Vector3, bool>();
 
-    public bool isPlacementPossible = true; // Biến để theo dõi việc đặt gem có khả thi không
+    public bool isPlacementPossible = true;
 
     public List<(GemConfig gem, Vector3 position)> placedGems = new List<(GemConfig, Vector3)>();
 
+    public PlayerProgressData gameData;
     [System.Serializable]
     public class GemConfig
     {
-        public GameObject gemPrefab; // Prefab của gem
-        public Vector2Int size;      // Kích thước gem trên grid
-        //public int count;            // Số lượng gem còn lại
+        public GameObject gemPrefab;
+        public Vector2Int size;
     }
     void Start()
     {
-        // Gọi FindAllStones để lưu tất cả các vị trí stone khi game bắt đầu
+
+        pickaxeCount = gameData.pickaxeCount;
         FindAllStones();
         UpdatePickaxeCountUI();
-        //PlaceLargestGemAndCheckRemaining();
     }
-    public List<GemConfig> gemConfigs; // Danh sách các gem có thể tạo
+    public List<GemConfig> gemConfigs; 
 
-    // Danh sách các vị trí stone được public để có thể truy cập từ bên ngoài
+ 
     public List<Vector3> allStonePositions = new List<Vector3>();
 
-    // Hàm để tìm tất cả các GameObject có tag "Stone" và lưu vị trí của chúng
+
     public void UpdatePickaxeCountUI()
     {
+
         pickaxeText.text = "pickaxe: " + pickaxeCount.ToString();
     }
     public void UpdatePickaxe()
     {
+        gameData.pickaxeCount--;
         pickaxeCount--;
         if (pickaxeCount == 0)
         {
@@ -52,11 +53,11 @@ public class GemControler : MonoBehaviour
         }
         UpdatePickaxeCountUI();
     }
-    // Xử lý khi nhấn nút "Yes"
     public void OnYesButtonClicked()
     {
         // Thêm 100 cuốc và đóng popup
         pickaxeCount += 100;
+        gameData.pickaxeCount += 100;
         UpdatePickaxeCountUI();
         pickaxePopup.SetActive(false);
     }
