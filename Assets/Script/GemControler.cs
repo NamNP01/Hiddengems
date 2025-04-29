@@ -17,7 +17,7 @@ public class GemControler : MonoBehaviour
 
     public bool isPlacementPossible = true; // Biến để theo dõi việc đặt gem có khả thi không
 
-    private List<(GemConfig gem, Vector3 position)> placedGems = new List<(GemConfig, Vector3)>();
+    public List<(GemConfig gem, Vector3 position)> placedGems = new List<(GemConfig, Vector3)>();
 
     [System.Serializable]
     public class GemConfig
@@ -146,14 +146,6 @@ public class GemControler : MonoBehaviour
         // Giảm số lượng gem và loại bỏ nếu hết
 
         gemConfigs.RemoveAt(randomIndex);
-        //selectedGem.count--;
-        //if (selectedGem.count <= 0 && randomIndex >= 0 && randomIndex < gemConfigs.Count)
-        //{
-        //    gemConfigs.RemoveAt(randomIndex);
-        //    Debug.Log($"Gem {selectedGem.gemPrefab.name} removed from the list.");
-        //}
-
-        //PlaceLargestGemAndCheckRemaining();
 
         // Xóa tất cả các ô đã sử dụng
         foreach (Vector3 pos in occupiedPositions)
@@ -286,37 +278,7 @@ public class GemControler : MonoBehaviour
             return occupiedPositions.All(pos => remainingPositions.Contains(pos));
 
         }
-
-    // Hàm tính toán các vị trí mà gem sẽ chiếm
-    //private List<Vector3> GetOccupiedPositionsForGem(GemConfig gem, Vector3 basePosition)
-    //{
-    //    List<Vector3> occupiedPositions = new List<Vector3>();
-    //    basePosition = SnapToGrid(basePosition);
-
-    //    // Duyệt qua tất cả các vị trí trong phạm vi gem (X và Y)
-    //    for (int offsetX = 0; offsetX < gem.size.x; offsetX++)
-    //    {
-    //        for (int offsetY = 0; offsetY < gem.size.y; offsetY++)
-    //        {
-    //            // Tạo các vị trí cho các ô bị chiếm dụng
-    //            Vector3 positionToCheck = basePosition + new Vector3(offsetX * cellSize, offsetY * cellSize, 0);
-
-    //            // Kiểm tra xem vị trí này có bị chiếm dụng không
-    //            if (allStonePositions.Contains(positionToCheck))
-    //            {
-    //                occupiedPositions.Add(positionToCheck);
-    //            }
-    //            else
-    //            {
-    //                return null; // Nếu có bất kỳ vị trí nào không hợp lệ, trả về null
-    //            }
-    //        }
-    //    }
-
-    //    // Nếu tất cả các ô hợp lệ, trả về danh sách các vị trí bị chiếm dụng
-    //    return occupiedPositions;
-    //}
-    private List<Vector3> GetOccupiedPositionsForGem(GemConfig gem, Vector3 basePosition)
+    public List<Vector3> GetOccupiedPositionsForGem(GemConfig gem, Vector3 basePosition)
     {
         List<Vector3> occupiedPositions = new List<Vector3>();
         basePosition = SnapToGrid(basePosition);

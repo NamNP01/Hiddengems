@@ -3,7 +3,7 @@
 public class Stone : MonoBehaviour
 {
     public GemControler gemControler; // Tham chiếu đến GemControler
-    public float spawnChance = 0f;
+    public float spawnChance = 0.3f;
     private void OnMouseDown()
     {
         if (gemControler.pickaxeCount <= 0)
@@ -40,7 +40,6 @@ public class Stone : MonoBehaviour
         {
             if (spawnChance > 0f && Random.value <= spawnChance)
             {
-                Debug.LogWarning("!");
                 gemControler.SpawnRandomGem(stonePosition);
             }
         }
