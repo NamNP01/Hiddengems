@@ -8,16 +8,14 @@ public class GemCountUI : MonoBehaviour
 {
     public static GemCountUI Instance { get; private set; }
 
-    [Header("Dependencies")]
+    [Header("UI")]
     public GemControler gemController;
     public TextMeshProUGUI gemListText;
-
-    // Lưu trạng thái số lượng gem còn lại
+    
     private Dictionary<string, int> gemCounts = new Dictionary<string, int>();
 
     private void Awake()
     {
-        // Thiết lập singleton
         if (Instance == null)
         {
             Instance = this;

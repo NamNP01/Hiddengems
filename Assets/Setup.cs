@@ -4,14 +4,10 @@ public class Setup : MonoBehaviour
 {
     public PlayerProgressData gameData;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        gameData.ResetToDefaults();
+        gameData.pickaxeCount = 10;
+        gameData.currentStage = 0;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

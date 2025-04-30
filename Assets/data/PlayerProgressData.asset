@@ -12,7 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87f0948109f19734f850b981f6129527, type: 3}
   m_Name: PlayerProgressData
   m_EditorClassIdentifier: 
-  defaultStage: 0
-  defaultPickaxe: 10
-  currentStage: 1
-  pickaxeCount: 10
+  currentStage: 8
+  pickaxeCount: 1301

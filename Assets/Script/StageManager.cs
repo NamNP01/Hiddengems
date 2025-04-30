@@ -6,7 +6,7 @@ using UnityEngine;
 public class GemRequirement
 {
     public GameObject gemPrefab;
-    public Vector2Int size; // Dự phòng nếu cần kích thước, có thể bỏ qua nếu không dùng
+    public Vector2Int size;
 }
 
 [System.Serializable]

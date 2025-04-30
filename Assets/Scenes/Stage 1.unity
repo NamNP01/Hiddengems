@@ -220,9 +220,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!61 &5677463
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -346,9 +346,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &13928945
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -651,9 +651,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!61 &43256250
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -876,9 +876,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!61 &60093678
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1123,9 +1123,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &81159656
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1273,9 +1273,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &101186873
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1559,9 +1559,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &121400503
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1709,9 +1709,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &126270236
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1859,9 +1859,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &134618676
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2142,9 +2142,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &227471093
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2292,9 +2292,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &248527295
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2442,9 +2442,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &311537015
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2592,9 +2592,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &361525944
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2766,9 +2766,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!61 &381895495
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2931,9 +2931,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &413747544
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3081,9 +3081,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &415402037
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3376,9 +3376,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!61 &416915031
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3508,7 +3508,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1451374061}
+      - m_Target: {fileID: 711999740}
         m_TargetAssemblyTypeName: StageRewardManager, Assembly-CSharp
         m_MethodName: LoadNextScene
         m_Mode: 1
@@ -3931,9 +3931,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!61 &501491720
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4149,9 +4149,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &569450817
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4299,9 +4299,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &594238063
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4473,9 +4473,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!61 &608253659
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4599,9 +4599,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &626986362
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4885,9 +4885,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &659058731
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5171,9 +5171,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &695270193
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5256,6 +5256,8 @@ GameObject:
   - component: {fileID: 711999738}
   - component: {fileID: 711999737}
   - component: {fileID: 711999736}
+  - component: {fileID: 711999740}
+  - component: {fileID: 711999741}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5350,6 +5352,38 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &711999740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711999735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a6a97fc3549649459ff3741adc0a816, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  progressSlider: {fileID: 1451374060}
+  rewardObject: {fileID: 770370358}
+  rewardText: {fileID: 741592135}
+  data: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
+  gemControler: {fileID: 930839121}
+  rewardPickaxe: 5
+--- !u!114 &711999741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711999735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7f7cd6a19c4b947af7724e40c38265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gemController: {fileID: 930839121}
+  gemListText: {fileID: 480338088}
 --- !u!1 &719249025
 GameObject:
   m_ObjectHideFlags: 0
@@ -5427,9 +5461,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &719249028
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5577,9 +5611,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &732495364
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5662,7 +5696,7 @@ GameObject:
   - component: {fileID: 741592136}
   - component: {fileID: 741592135}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: RewardText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5898,9 +5932,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &766887753
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6087,9 +6121,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &834960589
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6237,9 +6271,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &886660155
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6387,9 +6421,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &902842215
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6537,9 +6571,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &910539874
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6621,7 +6655,6 @@ GameObject:
   - component: {fileID: 916012829}
   - component: {fileID: 916012831}
   - component: {fileID: 916012830}
-  - component: {fileID: 916012832}
   m_Layer: 5
   m_Name: MissingGems
   m_TagString: Untagged
@@ -6687,20 +6720,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916012828}
   m_CullTransparentMesh: 1
---- !u!114 &916012832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 916012828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da7f7cd6a19c4b947af7724e40c38265, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gemController: {fileID: 930839121}
-  gemListText: {fileID: 480338088}
 --- !u!1 &930839118
 GameObject:
   m_ObjectHideFlags: 0
@@ -6803,10 +6822,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellSize: 1
-  pickaxeCount: 100
   pickaxeText: {fileID: 647873981}
   pickaxePopup: {fileID: 391746832}
   isPlacementPossible: 1
+  dynamiteCount: 0
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemConfigs:
   - gemPrefab: {fileID: 6849974150632914796, guid: 72e01b90de54788448ade347f73cf6cc, type: 3}
@@ -7068,9 +7087,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!61 &1025373245
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7194,9 +7213,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1041547900
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7436,9 +7455,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!61 &1081856706
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7562,9 +7581,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1098054724
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7848,9 +7867,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1128928419
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7998,9 +8017,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1149924845
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8305,9 +8324,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!61 &1201882847
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8431,9 +8450,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1268295969
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8605,9 +8624,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!61 &1274469825
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8755,9 +8774,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!61 &1334488001
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8881,9 +8900,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1335194254
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9055,9 +9074,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!61 &1342747147
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9181,9 +9200,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1345416281
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9406,9 +9425,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1404903140
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9580,9 +9599,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!61 &1442237073
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9639,7 +9658,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1451374059}
   - component: {fileID: 1451374060}
-  - component: {fileID: 1451374061}
   m_Layer: 5
   m_Name: SliderChest
   m_TagString: Untagged
@@ -9725,20 +9743,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1451374061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451374058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a6a97fc3549649459ff3741adc0a816, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  progressSlider: {fileID: 1451374060}
-  rewardObject: {fileID: 770370358}
 --- !u!1 &1471567228
 GameObject:
   m_ObjectHideFlags: 0
@@ -9816,9 +9820,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1471567231
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10102,9 +10106,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1538818331
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10252,9 +10256,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1573333022
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10538,9 +10542,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1592580144
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10833,9 +10837,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!61 &1624635619
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11097,9 +11101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1650755220
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11247,9 +11251,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1658989039
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11533,9 +11537,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1669839925
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11825,7 +11829,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1451374061}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StageRewardManager, Assembly-CSharp
         m_MethodName: OnStageCompleted
         m_Mode: 1
@@ -11952,9 +11956,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1734428991
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12102,9 +12106,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1790250830
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12252,9 +12256,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1803002017
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12402,9 +12406,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1871194987
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12627,9 +12631,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &1936237443
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12801,9 +12805,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!61 &1948044133
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12927,9 +12931,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &2025537601
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13077,9 +13081,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &2026500500
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13423,9 +13427,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &2088029488
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13573,9 +13577,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc2d299e9833714894671985df75c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDynamite: 0
+  gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
-  spawnChance: 0.3
-  gameData: {fileID: 0}
 --- !u!212 &2090385266
 SpriteRenderer:
   m_ObjectHideFlags: 0
