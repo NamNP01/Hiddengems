@@ -46,7 +46,8 @@ public class StageRewardManager : MonoBehaviour
             rewardObject.SetActive(true);
         if (rewardText != null)
         {
-            if (data.currentStage == 4)
+            string sceneName = SceneManager.GetActiveScene().name;
+            if (sceneName == "Stage 5")
             {
                 rewardText.text = $"X{rewardPickaxe} Pickaxe!\nCongratulations! \r\nYou completed all the gates! \r\nClaim your rewards!";
             }

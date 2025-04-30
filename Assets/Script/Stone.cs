@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using Unity.Android.Gradle.Manifest;
 using UnityEngine;
 
 public class Stone : MonoBehaviour
@@ -8,17 +7,24 @@ public class Stone : MonoBehaviour
 
     [Header("Dynamite")]
     public bool isDynamite = false;
+    public GameObject Explosion;
 
     [Header("Data")]
     public PlayerProgressData gameData;
     public GemControler gemControler;
 
     [Header("Click Cooldown")]
-    private float clickCooldown = 2.5f;
-    private float lastClickTime;
+    private float clickCooldown = 0.5f;
+    private static float lastClickTime;
+
+    private void Start()
+    {
+        lastClickTime = -clickCooldown;
+    }
+
     private void OnMouseDown()
     {
-        if (Time.time - lastClickTime < clickCooldown) return;
+        if (Time.time - lastClickTime <= clickCooldown) return;
 
         lastClickTime = Time.time;
         if (gameData.pickaxeCount <= 0) return;
@@ -28,6 +34,8 @@ public class Stone : MonoBehaviour
         if (isDynamite)
         {
             Explode(stonePosition);
+            Instantiate(Explosion, stonePosition,Quaternion.identity);
+            Destroy(gameObject, 1f);
         }
         else
         {

@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.tvOS;
-using UnityEngine.UI;
 
 public class GemCountUI : MonoBehaviour
 {

@@ -221,6 +221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!61 &5677463
@@ -347,6 +348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &13928945
@@ -652,6 +654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!61 &43256250
@@ -877,6 +880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!61 &60093678
@@ -1124,6 +1128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &81159656
@@ -1274,6 +1279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &101186873
@@ -1560,6 +1566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &121400503
@@ -1710,6 +1717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &126270236
@@ -1860,6 +1868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &134618676
@@ -2143,6 +2152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &227471093
@@ -2293,6 +2303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &248527295
@@ -2443,6 +2454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &311537015
@@ -2593,6 +2605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &361525944
@@ -2767,6 +2780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!61 &381895495
@@ -2932,6 +2946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &413747544
@@ -3082,6 +3097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &415402037
@@ -3190,7 +3206,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 41.377533, y: -0.49165344}
+  m_AnchoredPosition: {x: 41.377533, y: 0.52492}
   m_SizeDelta: {x: 27, y: 22.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &415529449
@@ -3377,6 +3393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!61 &416915031
@@ -3799,6 +3816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!61 &501491720
@@ -4017,6 +4035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &569450817
@@ -4167,6 +4186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &594238063
@@ -4341,6 +4361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!61 &608253659
@@ -4467,6 +4488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &626986362
@@ -4753,6 +4775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &659058731
@@ -5039,6 +5062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &695270193
@@ -5329,6 +5353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &719249028
@@ -5479,6 +5504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &732495364
@@ -5800,6 +5826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &766887753
@@ -5987,6 +6014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &834960589
@@ -6137,6 +6165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &886660155
@@ -6287,6 +6316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &902842215
@@ -6437,6 +6467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &910539874
@@ -6947,6 +6978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!61 &1025373245
@@ -7073,6 +7105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1041547900
@@ -7315,6 +7348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!61 &1081856706
@@ -7441,6 +7475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1098054724
@@ -7727,6 +7762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1128928419
@@ -7877,6 +7913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1149924845
@@ -8184,6 +8221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!61 &1201882847
@@ -8310,6 +8348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1268295969
@@ -8484,6 +8523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!61 &1274469825
@@ -8634,6 +8674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!61 &1334488001
@@ -8760,6 +8801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1335194254
@@ -8934,6 +8976,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!61 &1342747147
@@ -9060,6 +9103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1345416281
@@ -9285,6 +9329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1404903140
@@ -9459,6 +9504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!61 &1442237073
@@ -9680,6 +9726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1471567231
@@ -9966,6 +10013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1538818331
@@ -10116,6 +10164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1573333022
@@ -10402,6 +10451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1592580144
@@ -10697,6 +10747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!61 &1624635619
@@ -10823,6 +10874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1650755220
@@ -10973,6 +11025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1658989039
@@ -11259,6 +11312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1669839925
@@ -11542,6 +11596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1734428991
@@ -11692,6 +11747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1790250830
@@ -11842,6 +11898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1803002017
@@ -11992,6 +12049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1871194987
@@ -12217,6 +12275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &1936237443
@@ -12391,6 +12450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!61 &1948044133
@@ -12517,6 +12577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &2025537601
@@ -12667,6 +12728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &2026500500
@@ -13013,6 +13075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &2088029488
@@ -13163,6 +13226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDynamite: 0
+  Explosion: {fileID: 4873279987456823156, guid: d3643d6c8ff665648a2a608303ad2d97, type: 3}
   gameData: {fileID: 11400000, guid: fea4daa78753d2d47a3e4757fa9bfe62, type: 2}
   gemControler: {fileID: 930839121}
 --- !u!212 &2090385266
